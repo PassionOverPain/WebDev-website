@@ -777,7 +777,9 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/hero-bg.png);
+  background: url(../img/Head.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero .container {
