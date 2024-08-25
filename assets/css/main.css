@@ -801,7 +801,7 @@ section,
 
 .hero .btn-get-started {
   color: var(--default-color);
-  background-color: var(--accent-color);
+  background-color: grey;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
@@ -814,7 +814,7 @@ section,
 }
 
 .hero .btn-get-started:hover {
-  background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  background-color: lime;
 }
 
 @media (max-width: 768px) {
