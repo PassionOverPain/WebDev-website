@@ -10,6 +10,7 @@ function sendEmail() {
     PEmail: bxEmail.value,
     PSubject: bxSubject.value,
     PMessage: bxMessage.value,
+    PDate: new Date(),
   };
 
   let myServiceID = "service_wt20wpt";
