@@ -17,4 +17,5 @@ function sendEmail() {
   let myTemplateID = "template_fncgatu";
 
   emailjs.send(myServiceID, myTemplateID, myParams);
+  alert("Email has been sent sir");
 }
