@@ -98,15 +98,6 @@ h6 {
 
 /* PHP Email Form Messages
 ------------------------------*/
-.php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
 
 .php-email-form .sent-message {
   display: none;
@@ -1616,7 +1607,7 @@ section,
 
 .contact .info-item i {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #000000;
   font-size: 20px;
   width: 44px;
   height: 44px;
@@ -1653,37 +1644,17 @@ section,
   box-shadow: none;
   border-radius: 0;
   color: var(--default-color);
-  background-color: color-mix(
-    in srgb,
-    var(--background-color),
-    transparent 50%
-  );
+  background-color: #000000;
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.contact .php-email-form input[type="text"]:focus,
-.contact .php-email-form input[type="email"]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.contact .php-email-form input[type="text"]::placeholder,
-.contact .php-email-form input[type="email"]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
 .contact .php-email-form button[type="submit"] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #000000;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
   border-radius: 4px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
 /*--------------------------------------------------------------
@@ -1831,6 +1802,11 @@ section,
 .project:focus {
   transform: scale(1.3);
   opacity: 1;
+}
+.form-control,
+.form-control::backdrop {
+  background-color: #000000;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
