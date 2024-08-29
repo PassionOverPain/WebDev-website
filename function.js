@@ -16,6 +16,8 @@ function sendEmail() {
   let myTemplateID = "template_fncgatu";
 
   emailjs.send(myServiceID, myTemplateID, myParams).then(function () {
-    alert("Email has been sent sir");
+    alert(
+      `Thank you for submitting a message, your email has been sent ${bxName.value}. I will be in contact with you shortly.`
+    );
   });
 }
