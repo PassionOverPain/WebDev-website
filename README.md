@@ -1,3 +1,4 @@
 # WebDev-website
 This project website is owned by s227284240n (Me)
-a website project issued during my web development course. The initial template was adapted from bootstrap.
+The initial template was adapted from bootstrap from a template called The Knight template.
+The repository hosts my website for my Web Applications Development course.
